@@ -24,11 +24,11 @@ function FindProxyForURL(url, host){
     *                                           *
     ********************************************/
 
-         var mode = 1;
+         var mode = 0;
 
     //【以下http代理设置仅在 “mode = 1” 时有效】
-    var domain = "23.89.13.16 ";
-    var port = "138";
+    var domain = "127.0.0.1 ";
+    var port = "8080";
 
     var hosts = [
 //=========域名Start=========
